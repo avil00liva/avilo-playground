@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="toy-bucket-pixel.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avilo's Playground</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="grid">
+        <div class="areasContent">
+          <textarea id="html" cols="30" rows="10" class="areaHtml"></textarea>
+          <img src="./assets/images/html-icon.png" alt="bucket" width="50px" height="50px">
+        </div>
+        <div class="areasContent">
+          <textarea id="css" cols="30" rows="10" class="areaCss"></textarea>
+          <img src="./assets/images/css-icon.png" alt="bucket" width="50px" height="50px">
+        </div>
+        <div class="areasContent">
+          <textarea id="js" cols="30" rows="10" class="areaJs"></textarea>
+          <img src="./assets/images/js-icon.png" alt="bucket" width="50px" height="50px">
+        </div>
+        <div>
+          <iframe srcdoc="<h1>Hola solo texto</h1>"></iframe>
+        </div>
+        <div class="horizontal-gutter"></div>
+        <div class="vertical-gutter"></div>
+      </div>
+    </div>
+
+    <!-- 
+      <div class="grid">
+  <div>
+    HTML
+  </div>
+  <div>
+    CSS
+  </div>
+  <div>
+    JS
+  </div>
+  <div>
+    Result
+  </div>
+  <div class="horizontal-gutter">
+  </div>
+  <div class="vertical-gutter">
+  </div>
+</div>
+
+    -->
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
